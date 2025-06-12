@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+section {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex; /* Adicionado para alinhamento */
+  align-items: center; /* Alinha verticalmente */
+}
+
+.product img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
